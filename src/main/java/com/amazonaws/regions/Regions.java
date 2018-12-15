@@ -28,13 +28,14 @@ public enum Regions {
     AP_SOUTHEAST_2("ap-southeast-2"), 
     AP_NORTHEAST_1("ap-northeast-1"), 
     SA_EAST_1("sa-east-1"),
-    CN_NORTH_1("cn-north-1");
+    CN_NORTH_1("cn-north-1"),
+    CN_NORTHWEST_1("cn-northwest-1");
     
     /**
      * The default region that new customers in the US are encouraged to use
      * when using AWS services for the first time.
      */
-    public static final Regions DEFAULT_REGION = US_WEST_2;
+    public static final Regions DEFAULT_REGION = CN_NORTHWEST_1;
     
     private final String name;
 
